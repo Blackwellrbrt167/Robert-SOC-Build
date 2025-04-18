@@ -39,7 +39,7 @@ This project lays the foundation for my entire SOC lab environment by configurin
 ![AD Role](./screenshots/Active_Directory_Role_Installation.png)
 
 ### 5. Promoting to Domain Controller  
-![Domain Controller](./screenshots/Domain_Controller_Creation_Completion.png)
+[![Domain Controller](./screenshots/Domain_Controller_Creation_Completion.png)](https://github.com/Blackwellrbrt167/Robert-SOC-Build/blob/a076103cda9be04ad742f890abb1365d8d5b9d1e/architecture/Project_01_AD_Deployment/screenshots/Domain_Controller_Creation_Completion%20.png)
 
 ### 6. Domain Promotion Success Confirmation  
 architecture/Project_01_AD_Deployment/screenshots/Domain_Promotion_Completed-Confirmation .png
