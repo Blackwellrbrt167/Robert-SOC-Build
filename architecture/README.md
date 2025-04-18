@@ -9,6 +9,25 @@ Projects in This Section
 | Project | Description | Status |
 |--------|-------------|--------|
 | [Project_01_AD_Deployment](./Project_01_AD_Deployment) | Built and configured a Windows Server 2019 Domain Controller using Active Directory Domain Services (AD DS). This creates the authentication backbone for the lab. | Complete |
+      ## 📸 Screenshots
+
+> Click any image to enlarge.
+
+**1. Windows Server Lab VM Settings**  
+![VM Settings](../../screenshots/Windows_Server_Lab_VM_Settings.png)
+
+**2. Static IP Configuration**  
+![Static IP](../../screenshots/Static_IP_Creation.png)
+
+**3. Installing Windows Server Features**  
+![Server Install](../../screenshots/Installed_Windows_Server_Complete.png)
+
+**4. Adding Active Directory Domain Services**  
+![AD Role](../../screenshots/Active_Directory_Role_Installation.png)
+
+**5. Promoting to Domain Controller**  
+![Domain Controller](../../screenshots/Domain_Controller_Creation_Completion.png)
+
 | Project_02_GPO_Block_USB | Create and link Group Policy Objects (GPO) to manage device control such as disabling USB drives for domain users. | In Progress |
 | Project_03_DHCP_Config | Setup of DHCP services for dynamic IP assignment to networked devices. | In Progress |
 | Project_04_DNS_Config | Configure DNS zones and name resolution internally for the lab network. | Upcoming |
