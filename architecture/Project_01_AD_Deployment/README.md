@@ -1,68 +1,85 @@
 Project 01 – Active Directory Deployment (Windows Server)
 
-This project serves as the foundation of my SOC lab build by configuring a Windows Server 2019 machine as a Domain Controller using Active Directory Domain Services (AD DS). This forms the authentication backbone for future infrastructure projects within the lab environment.
+This project marks the foundational stage of building out my SOC (Security Operations Center) lab. Here, I configure a Windows Server 2019 virtual machine and promote it to a Domain Controller using Active Directory Domain Services (AD DS). This sets up the authentication backbone needed for future SOC operations.
 
 ---
 
-Key Objectives
+Objective
 
-- Provision a Windows Server 2019 Virtual Machine (VM) in VirtualBox
-- Configure static IP addressing for consistency and network control
-- Install AD DS and promote the server to a Domain Controller
-- Create a local domain `lab.local`
-- Establish a test Organizational Unit (OU)
-- Create a sample user for login testing
-- Validate successful domain promotion
+To successfully install and configure a Windows Server VM, assign it a static IP, and promote it to a Domain Controller with `lab.local` as the root domain.
 
 ---
 
- Folder Contents
+Key Milestones Completed
 
-- `Project01_AD_Deployment_With_GitHub_FINAL.pdf` — Complete step-by-step documentation with
-- 
-- `screenshots/` — Visual walkthrough of the build process
-
----
-
-Screenshots (Click to Enlarge)
-
-1. Windows Server Lab VM Settings  
-Basic configuration setup for the Windows Server 2019 VM in VirtualBox  
-![VM Settings](../../screenshots/Windows_Server_Lab_VM_Settings.png)
+- Installed Windows Server 2019 in VirtualBox  
+- Assigned a static IP address  
+- Promoted the server to Domain Controller  
+- Created a domain: `lab.local`  
+- Created an Organizational Unit (OU) called `TestOU`  
+- Added a sample user: `TestUser1` for login testing  
+- Re-promoted Domain Controller to capture confirmation screen
 
 ---
 
-2. Static IP Configuration  
-Static IP setup to avoid DHCP lease changes  
-![Static IP](../../screenshots/Static_IP_Creation.png)
+Folder Contents
+
+- `Project1_AD_Deployment_With_GitHub_FINAL.pdf` – Step-by-step PDF guide for beginners  
+- `screenshots/` – Visual walkthroughs of the process with clear, labeled steps  
 
 ---
 
-3. Installing Windows Server Features  
-Successful installation of key Windows Server roles and features  
-![Server Install](../../screenshots/Installed_Windows_Server_Complete.png)
+Screenshots of Setup Process
+
+Click any image below to enlarge.
 
 ---
 
-4. Adding Active Directory Domain Services (AD DS)  
-Screenshot showing successful role selection and setup  
-![AD Role](../../screenshots/Active_Directory_Role_Installation.png)
+1. Windows Server Lab VM Settings**  
+![VM Settings](./screenshots/Windows_Server_Lab_VM_Settings.png)
 
 ---
 
-5. Promoting to Domain Controller  
-Confirmation of domain promotion and readiness  
-![Domain Controller Creation](../../screenshots/Domain_Controller_Creation_Completion.png)
+2. Static IP Configuration**  
+![Static IP](./screenshots/Static_IP_Creation.png)
 
 ---
 
- 6. Domain Promotion Confirmation  
-Final confirmation of successful promotion to Domain Controller  
-![Domain Promotion Completed](../../screenshots/Domain_Promotion_Completed-Confirmation.png)
+3. Installing Windows Server Features**  
+![Server Install](./screenshots/Installed_Windows_Server_Complete.png)
 
 ---
 
-Summary
+4. Adding Active Directory Domain Services**  
+![AD Role](./screenshots/Active_Directory_Role_Installation.png)
 
-This build marks the beginning of my hands-on Security Operations Center (SOC) project. Through this Active Directory deployment, I’ve laid the groundwork to manage users, authenticate devices, and simulate a realistic enterprise network. Every step reflects both my learning and my commitment to mastering cybersecurity fundamentals through self-built infrastructure.
+---
 
+5. Promoting to Domain Controller**  
+![Domain Controller](./screenshots/Domain_Controller_Creation_Completion.png)
+
+---
+
+6. Domain Promotion Confirmation**  
+![Confirmation](./screenshots/Domain_Promotion_Completed-Confirmation.png)
+
+---
+
+Reflections
+
+This project was my first real-world implementation of Active Directory. While it may seem basic, it represents a major leap forward in my IT/cybersecurity learning journey. I ran into errors, overcame setbacks, and even re-promoted the Domain Controller to ensure complete and accurate documentation.
+
+---
+
+What's Next?
+
+With AD deployed, my next projects include:
+
+- Setting up DHCP & DNS  
+- Implementing Group Policy Objects (GPOs)  
+- Connecting endpoints to the domain  
+- Simulating real-world SOC security workflows
+
+---
+
+Every step, mistake, and fix is part of my blueprint to mastery in cybersecurity. This is Project 01 — and just the beginning.
