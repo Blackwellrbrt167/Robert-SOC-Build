@@ -42,5 +42,5 @@ This project lays the foundation for my entire SOC lab environment by configurin
 ![Domain Controller](./screenshots/Domain_Controller_Creation_Completion.png)
 
 ### 6. Domain Promotion Success Confirmation  
-![Domain Promotion](./screenshots/Domain_Promotion_Completed-Confirmation.png)
+architecture/Project_01_AD_Deployment/screenshots/Domain_Promotion_Completed-Confirmation .png
 
