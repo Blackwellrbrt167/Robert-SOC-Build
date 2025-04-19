@@ -54,7 +54,8 @@ This project lays the **foundation** for my full-scale Security Operations Cente
 ---
 
 ### **6. Domain Promotion Success Confirmation**  
-![Domain Promotion Confirmation](./screenshots/Domain_Promotion_Completed-Confirmation.png)
+![Domain_Promotion_Completed-Confirmation ](https://github.com/user-attachments/assets/e6ebe213-87e0-4ebe-9b7a-7d265d8eb68d)
+
 
 ---
 
