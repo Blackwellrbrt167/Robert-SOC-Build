@@ -3,6 +3,7 @@ Project 02 – Group Policy: Block USB Devices
 This project configures a Group Policy Object (GPO) to block USB device access for domain users, simulating a common security hardening task in enterprise environments.
 
 Summary
+
 This policy disables USB storage devices to protect data leakage and enforce compliance.
 
 Steps Completed
