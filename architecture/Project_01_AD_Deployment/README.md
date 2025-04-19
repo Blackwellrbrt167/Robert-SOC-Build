@@ -47,7 +47,9 @@ This project lays the **foundation** for my full-scale Security Operations Cente
 ---
 
 ### **5. Promoting to Domain Controller**  
-![Domain Controller](./screenshots/Domain_Controller_Creation_Completion.png)
+![Domain_Controller_Creation_Completion ](https://github.com/user-attachments/assets/fccb5159-100e-4fea-a678-da27ec1bb02a)
+
+
 
 ---
 
