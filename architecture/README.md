@@ -9,7 +9,7 @@ Projects in This Section
 | Project | Description | Status |
 |--------|-------------|--------|
 | [Project_01_AD_Deployment](./Project_01_AD_Deployment) | Built and configured a Windows Server 2019 Domain Controller using Active Directory Domain Services (AD DS). This creates the authentication backbone for the lab. | Complete |
-| Project_02_GPO_Block_USB | Create and link Group Policy Objects (GPO) to manage device control such as disabling USB drives for domain users. | Complete |
+| [Project_02_GPO_Block_USB](./Project_02_GPO_Block_USB) | Create and link Group Policy Objects (GPO) to manage device control such as disabling USB drives for domain users. | Complete |
 | Project_03_DHCP_Config | Setup of DHCP services for dynamic IP assignment to networked devices. | In Progress |
 | Project_04_DNS_Config | Configure DNS zones and name resolution internally for the lab network. | Upcoming |
 
