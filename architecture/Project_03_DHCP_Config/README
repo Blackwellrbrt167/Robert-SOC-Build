@@ -1,16 +1,16 @@
-Project 03 – DHCP Configuration in Windows Server
+# Project 03 – DHCP Configuration in Windows Server
 
 This project demonstrates how to configure the **Dynamic Host Configuration Protocol (DHCP)** service on a Windows Server 2019 Domain Controller. DHCP automatically assigns IP addresses and related network configuration to client devices in the domain.
 
 ---
 
-Summary
+## 🔧 Summary
 
 We installed and configured the DHCP Server role, created a DHCP scope, and successfully allowed a domain-joined client machine to receive its network settings via dynamic assignment.
 
 ---
 
-Steps Completed
+## ✅ Steps Completed
 
 1. **Installed DHCP Server Role**
    - Added the DHCP role via the Server Manager’s Add Roles and Features Wizard.
@@ -33,6 +33,8 @@ Steps Completed
 
 ---
 
-Folder Structure
+## 📁 Folder Structure
+
+
 
 
