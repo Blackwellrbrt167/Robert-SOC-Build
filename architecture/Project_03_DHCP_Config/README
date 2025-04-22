@@ -1,6 +1,1 @@
- ## Project 4: DHCP Configuration in Windows Server
- This project shows how to install and configure the DHCP role on a Windows Server.
- Dynamic Host Configuration Protocol (DHCP) is used to automatically assign IP addresses to computers
- on a network. This is a fundamental service in any enterprise environment.
- **Technologies Used:**- Windows Server DHCP Role- Server Manager and DHCP Console
- **Skills Practiced:**- Installing the DHCP Server Role- Creating and activating a DHCP Scope- Assigning address ranges and lease durations- Setting up default gateway and DNS options
+
