@@ -6,7 +6,7 @@ This project focuses on configuring DNS within the lab domain and verifying succ
 
 ## 🧠 Summary
 
-We configured internal DNS to support Active Directory functionality, verified that the domain controller handled name resolution, and successfully joined a Windows 10 client to the domain (`lab.local`). This simulates a standard enterprise setup in which clients are domain-joined and rely on internal DNS for resolution.
+I configured internal DNS to support Active Directory functionality, verified that the domain controller handled name resolution, and successfully joined a Windows 10 client to the domain (`lab.local`). This simulates a standard enterprise setup in which clients are domain-joined and rely on internal DNS for resolution.
 
 ---
 
