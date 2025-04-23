@@ -1,57 +1,60 @@
-# Project 04 – DNS Configuration & Domain Join Verification
+# Project 04 – DNS Setup & Domain Join Verification
 
-This project focuses on configuring DNS within the lab domain and verifying successful client integration by joining a Windows 10 machine to the Active Directory domain hosted on the Windows Server 2019 Domain Controller.
+This project demonstrates how to configure DNS settings on a Windows Server 2019 Domain Controller and properly connect a client machine to the domain using those DNS settings. This forms the foundation of name resolution and domain-level communication within the enterprise environment.
 
 ---
 
 ## 🧠 Summary
 
-I configured internal DNS to support Active Directory functionality, verified that the domain controller handled name resolution, and successfully joined a Windows 10 client to the domain (`lab.local`). This simulates a standard enterprise setup in which clients are domain-joined and rely on internal DNS for resolution.
+We configured the Domain Name System (DNS) on our Windows Server, ensured our client machine pointed to it for name resolution, joined the client to the domain, and verified successful communication through DNS queries. These steps are essential for enabling directory-based network services such as Active Directory.
 
 ---
 
 ## ✅ Steps Completed
 
-1. **Verified DNS Installation on Server**
-   - Confirmed that the DNS role was installed during AD DS setup.
-   - Opened DNS Manager and validated forward lookup zones were created (e.g., `lab.local`).
+### 1. **Checked DNS Settings on the Server**
+- Confirmed the domain controller was running the DNS Server role.
+- Verified that a Forward Lookup Zone for the domain (`lab.local`) existed.
+- ![Step 1_ DNS_Settings_On_Server](https://github.com/user-attachments/assets/ba3e41ed-7132-4625-9055-85c1e39cb632)
 
-2. **Verified DNS Records**
-   - Checked for key records: `A`, `NS`, `SRV` entries for the domain controller under `lab.local`.
-   - Ensured the domain controller’s IP matched the DNS host record.
 
-3. **Configured Client DNS Settings**
-   - Opened the Windows 10 client’s network adapter settings.
-   - Manually configured the IPv4 settings to use the **domain controller’s IP address as the DNS server** (e.g., `192.168.1.2`).
+### 2. **Set Client Computer's DNS**
+- Updated the client VM’s IPv4 settings to **obtain an IP address automatically** and **manually set the Preferred DNS Server to the domain controller’s IP (192.168.1.2)**.
+- ![Step 2_Network_Settings_DNS_Configuration](https://github.com/user-attachments/assets/bfb303b9-e879-403b-97b7-0d4e28179827)
 
-4. **Tested DNS Resolution**
-   - Opened Command Prompt on the client.
-   - Ran `nslookup lab.local` and `ping lab.local` to ensure successful name resolution.
-   - Verified that the client could reach the domain controller via hostname.
 
-5. **Joined Client to the Domain**
-   - Opened **System Properties** > **Computer Name** tab > clicked **Change**.
-   - Selected **Domain**, entered `lab.local`, and provided domain credentials.
-   - Restarted the client to complete domain join.
+### 3. **Joined the Client to the Domain**
+- Navigated to **System Properties** > **Change Settings**.
+- Selected the **Domain** option and joined the client to `lab.local`.
+- Restarted the machine upon successful domain join prompt.
+- ![Step 3_Domain_join-confirmation ](https://github.com/user-attachments/assets/d3ee5d68-9b74-42a5-8ba1-4852525eeead)
 
-6. **Validated Domain Join**
-   - Logged in using domain credentials.
-   - Checked Active Directory to ensure the client appeared in the correct OU (e.g., `TestOU`).
-   - Ran `gpresult /r` and confirmed domain group policy application.
+
+### 4. **Tested the DNS Connection**
+- Ran `nslookup lab.local` from the client to verify domain resolution.
+- Successfully resolved the domain controller's hostname and IP, confirming proper DNS connectivity.
+- ![Step 4_Success_Ping_NSlookup_Connection_Test ](https://github.com/user-attachments/assets/5afa23b9-3bc6-4f5f-bf09-961cd25333d2)
+
 
 ---
 
-## 📁 Folder Contents
+## 📂 Folder Contents
 
-- `screenshots/` – Visual walkthroughs for each step
-- `Project4_DNS_Config_Domain_Join_Guide.pdf` – Full documentation with detailed instructions and troubleshooting
+- `screenshots/` – Visual walkthrough of each step.
+- `Project4_DNS_Domain_Join_Guide.pdf` – Full step-by-step documentation.
 
 ---
 
-## 🔐 Skills Demonstrated
+## 🛠️ Tools Used
 
-- DNS configuration and zone verification
-- Internal IP and DNS settings management
-- Active Directory domain join troubleshooting
-- Command-line verification (`nslookup`, `ping`, `gpresult`)
+- Windows Server 2019 (Domain Controller & DNS Server)
+- Windows 10 Client (VirtualBox)
+- VirtualBox NAT/Internal Network Mode
 
+---
+
+## 🧠 Key Concepts Practiced
+
+- DNS configuration and verification
+- Domain joining process in Active Directory environments
+- Name resolution using `nslookup` and DNS testing
