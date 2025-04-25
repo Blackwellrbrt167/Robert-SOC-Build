@@ -14,23 +14,27 @@ We created a test user account using the Active Directory Users and Computers (A
 
 1. **Opened Active Directory Users and Computers**
    - Launched the ADUC console from Server Manager or by running `dsa.msc`.
+   - ![Step1_AD_Users and Computers-Open](https://github.com/user-attachments/assets/9ca5c958-b856-4fd9-9b13-488010886bd4)
+
 
 2. **Created a New User Account**
    - Navigated to the `TestOU` created in earlier projects.
    - Right-clicked the OU and selected **New > User**.
    - Entered the user's first name, last name, and username (e.g., `TestUser1`).
    - Set an initial password and chose to **uncheck** "User must change password at next logon" for lab simplicity.
+   - ![Step2_Create_New_user](https://github.com/user-attachments/assets/5969dd36-43fc-4fb1-831e-20e004751dd0)
+
 
 3. **Created or Selected a Security Group**
    - Created a new **Security Group** called `Lab_Users` or used an existing one.
    - Set group scope to **Global** and type to **Security**.
+   - ![Step 3_Created_New_User_Group](https://github.com/user-attachments/assets/5fa161e2-af15-4427-9ef9-0c31cc105675)
+
 
 4. **Added the User to the Group**
    - Right-clicked the `TestUser1` account.
    - Selected **Add to a group…** and typed/select `Lab_Users`.
-
-5. **Verified Group Membership**
-   - Opened the user’s properties and confirmed `Member Of` included `Lab_Users`.
+   - ![Step4_Add_User_to-Group ](https://github.com/user-attachments/assets/85221224-a59b-4a75-a4d7-0509f3d4a290)
 
 ---
 
