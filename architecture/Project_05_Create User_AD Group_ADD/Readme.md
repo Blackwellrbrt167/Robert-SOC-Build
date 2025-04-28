@@ -26,7 +26,7 @@ I created a test user account using the Active Directory Users and Computers (AD
 
 
 3. **Created or Selected a Security Group**
-   - Created a new **Security Group** called `Lab_Users` or used an existing one.
+   - Created a new **Security Group** called `Help_desk_group` or used an existing one.
    - Set group scope to **Global** and type to **Security**.
    - ![Step 3_Created_New_User_Group](https://github.com/user-attachments/assets/5fa161e2-af15-4427-9ef9-0c31cc105675)
 
