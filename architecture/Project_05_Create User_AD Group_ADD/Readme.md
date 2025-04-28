@@ -6,7 +6,7 @@ This project demonstrates how to create a new user in Active Directory (AD) and 
 
 ## 🧩 Summary
 
-We created a test user account using the Active Directory Users and Computers (ADUC) console, placed the user in the appropriate Organizational Unit (OU), and added the account to a security group. This type of administrative task ensures that domain users are structured for proper access, policy enforcement, and authentication within the enterprise environment.
+I created a test user account using the Active Directory Users and Computers (ADUC) console, placed the user in the appropriate Organizational Unit (OU), and added the account to a security group. This type of administrative task ensures that domain users are structured for proper access, policy enforcement, and authentication within the enterprise environment.
 
 ---
 
