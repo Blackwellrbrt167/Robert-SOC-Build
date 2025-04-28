@@ -32,8 +32,8 @@ I created a test user account using the Active Directory Users and Computers (AD
 
 
 4. **Added the User to the Group**
-   - Right-clicked the `TestUser1` account.
-   - Selected **Add to a group…** and typed/select `Lab_Users`.
+   - Right-clicked the `HelpDesk_group` account.
+   - Selected **Add to a group…** and typed/select `Test User 1`.
    - ![Step4_Add_User_to-Group ](https://github.com/user-attachments/assets/85221224-a59b-4a75-a4d7-0509f3d4a290)
 
 ---
