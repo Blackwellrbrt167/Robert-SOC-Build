@@ -32,7 +32,8 @@ This project lays the **foundation** for my full-scale Security Operations Cente
 ---
 
 ### **2. Static IP Configuration**  
-![Static IP](./screenshots/Static_IP_Creation.png)
+![Static_IP_Creation ](https://github.com/user-attachments/assets/d4a02366-8362-460e-b18f-e43096812d0b)
+
 
 ---
 
